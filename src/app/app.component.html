@@ -1,0 +1,40 @@
+<div class="border border-primary">
+<div class="container">
+    <div class="card text-bg-primary mb-3" >
+      
+        <div class="card-body">
+          <h2 class="card-title" >{{title}}</h2>
+         
+        </div>
+      </div>
+      
+
+
+<form>
+
+Numero 1: <input type="number" [(ngModel)]="numero1"name="numero1"> <br><br>
+
+Numero 2: <input type="number"[(ngModel)]="numero2"name="numero2"> <br><br>
+
+<input type="submit"   value="sumar"(click)="sumar()">
+
+<input type="submit"   value="restar"(click)="restar()">
+
+<input type="submit"   value="multiplicar"(click)="multiplicar()">
+
+<input type="submit"   value="dividir"(click)="dividir()">
+
+</form>
+
+
+</div>
+
+<div class="card text-bg-info mb-3" >
+      
+  <div class="card-body">
+    <h2 class="card-title" > Resultado: {{resultado}}</h2>
+   
+  </div>
+</div>
+</div>
+<router-outlet></router-outlet>

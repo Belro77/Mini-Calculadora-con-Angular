@@ -1,0 +1,20 @@
+.container
+{
+     
+    margin-left: 13%;
+    margin-top: 6%;
+    margin-bottom: 8%;
+}
+div.border.border-primary{
+    width: 30rem ;
+    height: 30rem ;
+    margin-left: 40%;
+}
+div.card.text-bg-primary.mb-3{
+    height: 6rem ;
+    width: 23rem ;
+}
+div.card.text-bg-info.mb-3{
+    width: 15rem ;
+    margin-left: 13%;
+}
